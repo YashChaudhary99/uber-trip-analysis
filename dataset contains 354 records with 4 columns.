@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Path to the uploaded CSV file
+csv_path = "/mnt/data/Uber-Jan-Feb-FOIL (1).csv"
+
+# Load the dataset
+df = pd.read_csv(csv_path)
+
+# Display basic information about the dataset
+df.info(), df.head()

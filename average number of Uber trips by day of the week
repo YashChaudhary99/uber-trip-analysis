@@ -1,0 +1,7 @@
+# Scatter plot to analyze relationship between active vehicles and trips
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=df, x="active_vehicles", y="trips", color="green", alpha=0.7)
+plt.title("Relationship Between Active Vehicles and Trips", fontsize=14)
+plt.xlabel("Active Vehicles", fontsize=12)
+plt.ylabel("Number of Trips", fontsize=12)
+plt.show()

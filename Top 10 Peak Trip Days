@@ -1,0 +1,5 @@
+# Identify the top 10 days with the highest trip counts
+top_trip_days = df.nlargest(10, 'trips')
+
+# Display top 10 days with highest trips
+top_trip_days[['date', 'trips']]
